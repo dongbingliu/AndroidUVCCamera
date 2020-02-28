@@ -27,7 +27,15 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Locale;
-
+/**
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : 
+ *     version: 1.0
+ * </pre>
+ */
 public class Size implements Parcelable {
     /**
      * native側のuvc_raw_format_tの値, こっちは主にlibuvc用

@@ -35,10 +35,13 @@ import rx.functions.Action1;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * 描述：相机代理类
- * 作者：liugh
- * 日期：2018/11/16
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : 相机代理类
+ *     version: 1.0
+ * </pre>
  */
 public class UVCCameraProxy implements IUVCCamera {
     private static int PICTURE_WIDTH = 640;
@@ -189,7 +192,7 @@ public class UVCCameraProxy implements IUVCCamera {
     /**
      * 设置相机预览控件，这里封装了相关注册注销广播、检测设备、释放资源等操作
      *
-     * @param surfaceView
+     * @param textureView
      */
     @Override
     public void setPreviewTexture(TextureView textureView) {
@@ -270,7 +273,8 @@ public class UVCCameraProxy implements IUVCCamera {
             if (mUVCCamera != null) {
                 this.PICTURE_WIDTH = width;
                 this.PICTURE_HEIGHT = height;
-                mUVCCamera.setPreviewSize(width, height);
+                /**P3X Project use UVCCamera.FRAME_FORMAT_MJPEG*/
+                mUVCCamera.setPreviewSize(width, height,UVCCamera.FRAME_FORMAT_MJPEG);
                 LogUtil.i("setPreviewSize-->" + width + " * " + height);
             }
         } catch (Exception e) {

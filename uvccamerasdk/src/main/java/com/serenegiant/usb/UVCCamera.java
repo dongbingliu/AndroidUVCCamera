@@ -36,7 +36,15 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : 
+ *     version: 1.0
+ * </pre>
+ */
 public class UVCCamera {
     public static final int DEFAULT_PREVIEW_WIDTH = 640;
     public static final int DEFAULT_PREVIEW_HEIGHT = 480;

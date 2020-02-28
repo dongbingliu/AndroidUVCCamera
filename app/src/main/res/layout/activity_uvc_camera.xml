@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="40pt"
-    android:layout_marginRight="40pt">
+    android:layout_height="match_parent">
 
     <TextureView
         android:id="@+id/textureView"
-        android:layout_width="640pt"
-        android:layout_height="480pt"
+        android:layout_width="640px"
+        android:layout_height="480px"
         android:layout_centerInParent="true" />
 
     <!--<SurfaceView-->
@@ -27,20 +25,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="分辨率："
-            android:textSize="24pt" />
+            android:textSize="24px" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="220pt"
-            android:layout_height="100pt"
+            android:layout_width="220px"
+            android:layout_height="100px"
             android:spinnerMode="dialog" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/take_picture"
         style="@style/btn_style"
-        android:layout_width="120pt"
-        android:layout_height="120pt"
+        android:layout_width="120px"
+        android:layout_height="120px"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50pt"

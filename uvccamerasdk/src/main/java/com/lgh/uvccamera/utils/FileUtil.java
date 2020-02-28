@@ -8,10 +8,13 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 /**
- * 描述：文件存取工具类
- * 作者：liugh
- * 日期：2018/12/25
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : 文件存取工具类
+ *     version: 1.0
+ * </pre>
  */
 public class FileUtil {
 

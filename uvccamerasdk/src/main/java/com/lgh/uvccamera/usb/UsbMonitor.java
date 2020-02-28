@@ -16,10 +16,13 @@ import com.lgh.uvccamera.utils.LogUtil;
 import java.util.HashMap;
 
 /**
- * 描述：usb插拔监听、连接工具类
- * 作者：liugh
- * 日期：2018/9/17
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : usb插拔监听、连接工具类
+ *     version: 1.0
+ * </pre>
  */
 public class UsbMonitor implements IMonitor {
     private static final String ACTION_USB_DEVICE_PERMISSION = "ACTION_USB_DEVICE_PERMISSION";

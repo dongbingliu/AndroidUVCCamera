@@ -16,10 +16,13 @@ import com.serenegiant.usb.UVCCamera;
 import java.util.List;
 
 /**
- * 描述：uvc相机接口
- * 作者：liugh
- * 日期：2018/12/27
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : uvc相机接口
+ *     version: 1.0
+ * </pre>
  */
 public interface IUVCCamera {
     /**

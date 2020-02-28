@@ -3,10 +3,13 @@ package com.lgh.uvccamera.callback;
 import android.hardware.usb.UsbDevice;
 
 /**
- * 描述：USB连接监听接口
- * 作者：liugh
- * 日期：2018/11/19
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : USB连接监听接口
+ *     version: 1.0
+ * </pre>
  */
 public interface ConnectCallback {
     /**

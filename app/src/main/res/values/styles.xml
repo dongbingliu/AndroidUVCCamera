@@ -9,15 +9,15 @@
     </style>
 
     <style name="btn_style">
-        <item name="android:layout_width">180pt</item>
-        <item name="android:layout_height">100pt</item>
+        <item name="android:layout_width">180px</item>
+        <item name="android:layout_height">100px</item>
         <item name="android:onClick">onClick</item>
         <item name="android:textSize">24pt</item>
     </style>
 
     <style name="img_style">
-        <item name="android:layout_width">320pt</item>
-        <item name="android:layout_height">240pt</item>
+        <item name="android:layout_width">320px</item>
+        <item name="android:layout_height">240px</item>
         <item name="android:onClick">onClick</item>
     </style>
 

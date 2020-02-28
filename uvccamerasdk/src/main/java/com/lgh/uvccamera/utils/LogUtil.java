@@ -21,15 +21,18 @@ package com.lgh.uvccamera.utils;
 import android.text.TextUtils;
 import android.util.Log;
 
+
 /**
- * <p>描述：Log工具，类似android.util.Log。</p>
- * tag自动产生，格式: customTagPrefix:className.methodName(L:lineNumber),
- * customTagPrefix为空时只输出：className.methodName(L:lineNumber)。
- * <p/>
- *
- * @author ~若相惜
- * @version v1.0
- * @date 2015-8-25 下午1:57:44
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : <p>描述：Log工具，类似android.util.Log。</p>
+ *                  tag自动产生，格式: customTagPrefix:className.methodName(L:lineNumber),
+ *                  customTagPrefix为空时只输出：className.methodName(L:lineNumber)。
+ *               <p/>
+ *     version: 1.0
+ * </pre>
  */
 public class LogUtil {
 

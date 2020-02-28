@@ -23,7 +23,15 @@ import com.serenegiant.usb.Size;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : 主界面Activity
+ *     version: 1.0
+ * </pre>
+ */
 public class UVCCameraActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private TextureView mTextureView;
@@ -105,8 +113,8 @@ public class UVCCameraActivity extends AppCompatActivity {
             @Override
             public void onCameraOpened() {
                 showAllPreviewSizes();
-                mUVCCamera.setPreviewSize(640, 480);
-                mUVCCamera.startPreview();
+//                mUVCCamera.setPreviewSize(640, 480);
+//                mUVCCamera.startPreview();
             }
 
             @Override

@@ -6,10 +6,13 @@ import android.hardware.usb.UsbManager;
 import android.text.TextUtils;
 
 /**
- * 描述：usb控制信息类
- * 作者：liugh
- * 日期：2018/11/21
- * 版本：v2.0.0
+ * <pre>
+ *     @author : liudongbing
+ *     @e-mail : lvdongbing@orbbec.com
+ *     @time   : 2020/2/28
+ *     @desc   : usb控制信息类
+ *     version: 1.0
+ * </pre>
  */
 public class UsbController {
     private static final String DEFAULT_USBFS = "/dev/bus/usb";
