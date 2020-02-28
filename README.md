@@ -128,3 +128,27 @@ mUVCCamera.takePicture();
 #### 参考
  [https://github.com/saki4510t/UVCCamera](https://github.com/saki4510t/UVCCamera)
 
+
+#### 注意事项
+1）mUVCCamera.setPreviewSize(),P3X 项目Use FRAME_FORMAT_MJPEG(1)
+```
+    /**
+     * Set preview size and preview mode
+     *
+     * @param width
+     * @param height
+     * @param frameFormat either FRAME_FORMAT_YUYV(0) or FRAME_FORMAT_MJPEG(1)
+     */
+    public void setPreviewSize(final int width, final int height, final int frameFormat) {
+        setPreviewSize(width, height, DEFAULT_PREVIEW_MIN_FPS, DEFAULT_PREVIEW_MAX_FPS, frameFormat, mCurrentBandwidthFactor);
+    }
+```
+
+2）rgb 预览回调数据接口 : setFrameCallback(final IFrameCallback callback, final int pixelFormat)
+
+pixelformat 取值:
+
+```
+① public static final int PIXEL_FORMAT_YUV420SP = 4;    // NV12
+② public static final int FRAME_FORMAT_MJPEG = 1; 是否可以取此值 ???
+```
